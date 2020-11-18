@@ -1,6 +1,6 @@
 import React from 'react'
 
-import video from 'videos/video.mp4'
+import video from 'assets/videos/video.mp4'
 
 import * as S from './styles'
 

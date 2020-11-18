@@ -38,15 +38,15 @@ const Navbar = ({ toggle }: NavbarProps) => {
 
             <S.NavMenu>
               <S.NavItem>
-                <Link to="about" text="About" />
+                <Link to="ear" text="Ouvindo" />
               </S.NavItem>
 
               <S.NavItem>
-                <Link to="discover" text="Discover" />
+                <Link to="body-language" text="Linguagem Corporal" />
               </S.NavItem>
 
               <S.NavItem>
-                <Link to="services" text="Services" />
+                <Link to="clarity-conciseness" text="Clareza e concisão" />
               </S.NavItem>
 
               <S.NavItem>

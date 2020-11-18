@@ -1,42 +1,61 @@
-import carImg from 'images/undraw_off_road_9oae.svg'
-import mobilePayImg from 'images/undraw_Mobile_pay_re_sjb8.svg'
-import teamImg from 'images/undraw_team_spirit_hrr4.svg'
-import medicalCareImg from 'images/undraw_medical_care_movn.svg'
+import earImg from 'assets/images/ear.png'
+import bodyImg from 'assets/images/body.png'
+import talkImg from 'assets/images/talk.png'
+import mobilePayImg from 'assets/images/undraw_Mobile_pay_re_sjb8.svg'
+import teamImg from 'assets/images/undraw_team_spirit_hrr4.svg'
+import medicalCareImg from 'assets/images/undraw_medical_care_movn.svg'
 
-export const homeObjOne = {
-  id: 'about',
+export const Ear = {
+  id: 'ear',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Premium Bank',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine: 'Ouvindo',
+  headline:
+    'Ser um bom ouvinte é uma das melhores maneiras de ser um bom comunicador',
   description:
-    'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-  buttonLabel: 'Get started',
+    'Ninguém gosta de se comunicar com alguém que se preocupa apenas em investir seus centavos e não se dá ao trabalho de ouvir a outra pessoa. Se você não for um bom ouvinte, será difícil compreender o que lhe pedem para fazer.',
   imgStart: false,
-  img: carImg,
-  alt: 'Car',
+  img: earImg,
+  alt: 'A imagem é de uma menina ouvindo sua avó',
   dark: true,
   primary: true,
   darkText: false
 }
 
-export const homeObjTwo = {
-  id: 'discover',
+export const BodyLanguage = {
+  id: 'body-language',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Unlimited Access',
-  headline: 'Login to your account at any time',
+  topLine: 'Linguagem Corporal',
+  headline:
+    'Sua linguagem corporal dá cor à mensagem que você está tentando transmitir',
   description:
-    'We have you covered to matter where you are located. All you need is an internet connection and a phone or computer',
-  buttonLabel: 'Learn More',
+    'Frequentemente, pistas não-verbais transmitem como uma pessoa está realmente se sentindo. Por exemplo, se a pessoa não está olhando nos seus olhos, ela pode se sentir desconfortável ou esconder a verdade.',
   imgStart: true,
-  img: mobilePayImg,
-  alt: 'App',
+  img: bodyImg,
+  alt: 'Duas pessoas sentadas em poltronas conversando',
   dark: false,
   primary: false,
   darkText: true
+}
+
+export const ClarityConciseness = {
+  id: 'clarity-conciseness',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Clareza e concisão',
+  headline: 'Uma boa comunicação verbal significa dizer apenas o suficiente',
+  description:
+    'Não fale muito ou pouco. Tente transmitir sua mensagem com o mínimo de palavras possível. Diga o que deseja de forma clara e direta, quer esteja falando com alguém pessoalmente, por telefone ou por e-mail.',
+  imgStart: false,
+  img: talkImg,
+  alt: 'A imagem é de uma menina ouvindo sua avó',
+  dark: true,
+  primary: true,
+  darkText: false
 }
 
 export const homeObjThree = {
@@ -48,7 +67,6 @@ export const homeObjThree = {
   headline: 'Creating an account is extremely easy',
   description:
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go",
-  buttonLabel: 'Start now',
   imgStart: false,
   img: teamImg,
   alt: 'Team',
@@ -66,7 +84,6 @@ export const homeObjFour = {
   headline: 'Creating an account is extremely easy',
   description:
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go",
-  buttonLabel: 'Get benefits',
   imgStart: true,
   img: medicalCareImg,
   alt: 'Medical',

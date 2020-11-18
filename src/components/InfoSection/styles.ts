@@ -1,8 +1,6 @@
-/** @format */
-
 import styled from 'styled-components'
 
-interface InfoContainerProps {
+type InfoContainerProps = {
   lightBg?: boolean
 }
 
@@ -18,7 +16,7 @@ export const InfoContainer = styled.div<InfoContainerProps>`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 660px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -62,7 +60,6 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-  /* color: #01b7f1; */
   color: #01bf71;
   font-size: 16px;
   line-height: 16px;
@@ -72,7 +69,7 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
 `
 
-interface HeadingProps {
+type HeadingProps = {
   lightText?: boolean
 }
 
@@ -80,7 +77,8 @@ export const Heading = styled.h1<HeadingProps>`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 700;
+  text-align: start;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
   @media screen and (max-width: 480px) {
@@ -93,9 +91,10 @@ interface SubtitleProps {
 }
 
 export const Subtitle = styled.p<SubtitleProps>`
-  max-width: 440px;
+  max-width: 540px;
   margin-bottom: 35px;
   font-size: 18px;
+  text-align: justify;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `

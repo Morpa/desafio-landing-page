@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Icon1 from 'images/svg-1.svg'
-import Icon2 from 'images/undraw_wallet_aym5.webp'
-import Icon3 from 'images/undraw_gift_card_6ekc.svg'
+import Icon1 from 'assets/images/svg-1.svg'
+import Icon2 from 'assets/images/undraw_wallet_aym5.webp'
+import Icon3 from 'assets/images/undraw_gift_card_6ekc.svg'
 
 import * as S from './styles'
 

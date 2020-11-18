@@ -8,8 +8,9 @@ import Footer from 'components/Footer'
 import Services from 'components/Services'
 
 import {
-  homeObjOne,
-  homeObjTwo,
+  Ear,
+  BodyLanguage,
+  ClarityConciseness,
   homeObjThree
 } from 'components/InfoSection/data'
 
@@ -23,8 +24,10 @@ const HomePage = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      <InfoSection {...Ear} />
+      <InfoSection {...BodyLanguage} />
+      <InfoSection {...ClarityConciseness} />
+      <InfoSection {...BodyLanguage} />
       <Services />
       <InfoSection {...homeObjThree} />
       <Footer />
