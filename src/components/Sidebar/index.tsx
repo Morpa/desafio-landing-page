@@ -17,13 +17,25 @@ const Sidebar = ({ isOpen, toggle }: SidebarProps) => {
       </S.Icon>
       <S.SidebarWrapper>
         <S.SidebarMenu>
-          <Link to="about" text="About" onClick={toggle} sidebar />
+          <Link to="empathy" text="Empatia" onClick={toggle} sidebar />
 
-          <Link to="discover" text="Discover" onClick={toggle} sidebar />
+          <Link to="cooperation" text="Cooperação" onClick={toggle} sidebar />
 
-          <Link to="services" text="Services" onClick={toggle} sidebar />
+          <Link
+            to="communication"
+            text="Comunicação"
+            onClick={toggle}
+            sidebar
+          />
 
-          <Link to="signup" text="Sign up" onClick={toggle} sidebar />
+          <Link to="ear" text="Ouvir" onClick={toggle} sidebar />
+
+          <Link
+            to="noverbal"
+            text="Comunicação não verbal"
+            onClick={toggle}
+            sidebar
+          />
         </S.SidebarMenu>
       </S.SidebarWrapper>
     </S.SidebarContainer>

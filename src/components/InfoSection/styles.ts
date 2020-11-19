@@ -8,8 +8,16 @@ export const InfoContainer = styled.div<InfoContainerProps>`
   color: #f9f9f9;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
-  @media screen and (max-width: 768px) {
-    padding: 10rem 0;
+  @media screen and (max-width: 77rem) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 35rem 0;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: auto;
   }
 `
 
@@ -83,7 +91,7 @@ export const Heading = styled.h1<HeadingProps>`
   text-align: start;
   color: ${({ lightText }) => (lightText ? '#f9f9f9' : '#010606')};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 48rem) {
     font-size: 3.2rem;
   }
 `
