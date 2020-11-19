@@ -38,19 +38,23 @@ const Navbar = ({ toggle }: NavbarProps) => {
 
             <S.NavMenu>
               <S.NavItem>
-                <Link to="ear" text="Ouvindo" />
+                <Link to="empathy" text="Empatia" />
               </S.NavItem>
 
               <S.NavItem>
-                <Link to="body-language" text="Linguagem Corporal" />
+                <Link to="cooperation" text="Cooperação" />
               </S.NavItem>
 
               <S.NavItem>
-                <Link to="clarity-conciseness" text="Clareza e concisão" />
+                <Link to="communication" text="Comunicação" />
               </S.NavItem>
 
               <S.NavItem>
-                <Link to="signup" text="Sign Up" />
+                <Link to="ear" text="Ouvir" />
+              </S.NavItem>
+
+              <S.NavItem>
+                <Link to="noverbal" text="Comunicação não verbal" />
               </S.NavItem>
             </S.NavMenu>
           </S.NavContainer>

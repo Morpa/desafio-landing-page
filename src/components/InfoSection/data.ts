@@ -1,93 +1,94 @@
-import earImg from 'assets/images/ear.png'
-import bodyImg from 'assets/images/body.png'
+import empathyImg from 'assets/images/empathy.png'
+import communicationImg from 'assets/images/communication.png'
 import talkImg from 'assets/images/talk.png'
-import mobilePayImg from 'assets/images/undraw_Mobile_pay_re_sjb8.svg'
-import teamImg from 'assets/images/undraw_team_spirit_hrr4.svg'
-import medicalCareImg from 'assets/images/undraw_medical_care_movn.svg'
+import earImg from 'assets/images/ear.png'
+import noverbalImg from 'assets/images/noverbal.png'
+
+export const Empathy = {
+  id: 'empathy',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Empatia',
+  headline:
+    'Para interagir bem com os outros, você deve ser capaz de entender como eles estão se sentindo',
+  description:
+    'A empatia é especialmente crítica ao lidar com clientes que vêm até você com perguntas ou problemas. Você precisa expressar uma preocupação genuína com os problemas deles, além de ajudar a resolvê-los.',
+  imgStart: false,
+  img: empathyImg,
+  alt: 'Duas pessoas conversando',
+  dark: true,
+  primary: true,
+  darkText: false
+}
+
+export const Cooperation = {
+  id: 'cooperation',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Cooperação',
+  headline:
+    'A cooperação é especialmente importante quando você trabalha em equipe',
+  description:
+    'Fazer parceria com outras pessoas para alcançar um objetivo comum. No entanto, mesmo que você não trabalhe em equipe, a cooperação ainda é necessária nas ocasiões em que é solicitado a trabalhar ao lado de colegas para ajudar a atingir os objetivos de sua organização.',
+  imgStart: true,
+  img: talkImg,
+  alt: 'Um grupo de pessoas conversando',
+  dark: false,
+  primary: false,
+  darkText: true
+}
+
+export const Communication = {
+  id: 'communication',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Comunicação verbal e escrita',
+  headline:
+    'Capacidade de se expressar usando uma linguagem clara que os outros possam entender',
+  description:
+    'Você precisará de sólidas habilidades de comunicação verbal sempre que falar com outras pessoas pessoalmente ou ao telefone. A comunicação escrita entra em jogo sempre que você escreve um e-mail, texto, carta, relatório ou apresentação - aqui, gramática, ortografia e formato apropriados são necessários.',
+  imgStart: false,
+  img: communicationImg,
+  alt: 'Uma pessoa falando',
+  dark: true,
+  primary: true,
+  darkText: false
+}
 
 export const Ear = {
   id: 'ear',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Ouvindo',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Ouvir',
   headline:
-    'Ser um bom ouvinte é uma das melhores maneiras de ser um bom comunicador',
+    'Outra importante habilidade de comunicação que o ajuda a interagir bem com os outros é ouvir',
   description:
-    'Ninguém gosta de se comunicar com alguém que se preocupa apenas em investir seus centavos e não se dá ao trabalho de ouvir a outra pessoa. Se você não for um bom ouvinte, será difícil compreender o que lhe pedem para fazer.',
-  imgStart: false,
+    'Você precisa ser capaz de ouvir cuidadosamente o que seu empregador lhe diz para fazer, o que seus colegas dizem em uma reunião e o que seus funcionários pedem de você. Você deve ouvir as preocupações dos clientes e expressar-lhes que as compreendeu. As pessoas respondem bem aos outros quando sentem que estão sendo ouvidas.',
+  imgStart: true,
   img: earImg,
-  alt: 'A imagem é de uma menina ouvindo sua avó',
-  dark: true,
-  primary: true,
-  darkText: false
-}
-
-export const BodyLanguage = {
-  id: 'body-language',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'Linguagem Corporal',
-  headline:
-    'Sua linguagem corporal dá cor à mensagem que você está tentando transmitir',
-  description:
-    'Frequentemente, pistas não-verbais transmitem como uma pessoa está realmente se sentindo. Por exemplo, se a pessoa não está olhando nos seus olhos, ela pode se sentir desconfortável ou esconder a verdade.',
-  imgStart: true,
-  img: bodyImg,
-  alt: 'Duas pessoas sentadas em poltronas conversando',
+  alt: 'Uma menina ouvindo sua avó',
   dark: false,
   primary: false,
   darkText: true
 }
 
-export const ClarityConciseness = {
-  id: 'clarity-conciseness',
+export const NoVerbal = {
+  id: 'noverbal',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Clareza e concisão',
-  headline: 'Uma boa comunicação verbal significa dizer apenas o suficiente',
+  topLine: 'Comunicação não verbal',
+  headline: 'A comunicação não verbal também é importante',
   description:
-    'Não fale muito ou pouco. Tente transmitir sua mensagem com o mínimo de palavras possível. Diga o que deseja de forma clara e direta, quer esteja falando com alguém pessoalmente, por telefone ou por e-mail.',
+    'Por que é importante? Suas habilidades de comunicação não verbal podem criar uma impressão positiva (ou negativa). Braços cruzados podem parecer defensivos. A má postura pode parecer pouco profissional. Olhar para baixo ou evitar o contato visual pode impedir que você seja visto como confiante. ',
   imgStart: false,
-  img: talkImg,
-  alt: 'A imagem é de uma menina ouvindo sua avó',
+  img: noverbalImg,
+  alt: 'Uma pessoa falando',
   dark: true,
   primary: true,
   darkText: false
-}
-
-export const homeObjThree = {
-  id: 'signup',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'Join our Team',
-  headline: 'Creating an account is extremely easy',
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go",
-  imgStart: false,
-  img: teamImg,
-  alt: 'Team',
-  dark: false,
-  primary: false,
-  darkText: true
-}
-
-export const homeObjFour = {
-  id: 'signup',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'Join our Team',
-  headline: 'Creating an account is extremely easy',
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go",
-  imgStart: true,
-  img: medicalCareImg,
-  alt: 'Medical',
-  dark: false,
-  primary: false,
-  darkText: true
 }

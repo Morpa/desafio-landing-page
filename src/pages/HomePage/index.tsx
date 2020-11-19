@@ -5,13 +5,13 @@ import HeroSection from 'components/HeroSection'
 import Sidebar from 'components/Sidebar'
 import InfoSection from 'components/InfoSection'
 import Footer from 'components/Footer'
-import Services from 'components/Services'
 
 import {
+  Empathy,
+  Cooperation,
+  Communication,
   Ear,
-  BodyLanguage,
-  ClarityConciseness,
-  homeObjThree
+  NoVerbal
 } from 'components/InfoSection/data'
 
 const HomePage = () => {
@@ -24,12 +24,11 @@ const HomePage = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      <InfoSection {...Empathy} />
+      <InfoSection {...Cooperation} />
+      <InfoSection {...Communication} />
       <InfoSection {...Ear} />
-      <InfoSection {...BodyLanguage} />
-      <InfoSection {...ClarityConciseness} />
-      <InfoSection {...BodyLanguage} />
-      <Services />
-      <InfoSection {...homeObjThree} />
+      <InfoSection {...NoVerbal} />
       <Footer />
     </>
   )

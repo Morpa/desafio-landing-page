@@ -29,7 +29,7 @@ export const SidebarContainer = styled.aside<SidebarContainerProps>`
     left: 0;
     transition: 0.3 ease-in-out;
 
-    ${!!isOpen && sidebarModifiers.open()};
+    ${!isOpen && sidebarModifiers.open()};
     ${!!isOpen && sidebarModifiers.close()};
   `}
 `

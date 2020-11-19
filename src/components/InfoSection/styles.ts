@@ -5,11 +5,11 @@ type InfoContainerProps = {
 }
 
 export const InfoContainer = styled.div<InfoContainerProps>`
-  color: #fff;
+  color: #f9f9f9;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 10rem 0;
   }
 `
 
@@ -77,9 +77,11 @@ export const Heading = styled.h1<HeadingProps>`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   font-weight: 700;
   text-align: start;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+  color: ${({ lightText }) => (lightText ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -96,16 +98,13 @@ export const Subtitle = styled.p<SubtitleProps>`
   font-size: 18px;
   text-align: justify;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
-`
-
-export const BtnWrap = styled.div`
-  display: flex;
-  justify-content: flex-start;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: ${({ darkText }) => (darkText ? '#010606' : '#f9f9f9')};
 `
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 500px;
   height: 100%;
 `
 
