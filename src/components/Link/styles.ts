@@ -8,7 +8,7 @@ type LinkProps = Pick<LinksProps, 'sidebar'>
 const linksModifiers = {
   normal: () => css`
     &.active {
-      border-bottom: 3px solid #3cd3c1;
+      border-bottom: 3px solid #f231a5;
     }
   `,
   side: () => css`
