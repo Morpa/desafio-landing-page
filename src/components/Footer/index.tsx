@@ -12,7 +12,7 @@ const Footer = () => (
 
           <S.SocialIcons>
             <S.SocialIconLink
-              href="https://www.github.com/"
+              href="https://github.com/Morpa"
               target="_blank"
               aria-label="Github"
             >
@@ -20,7 +20,7 @@ const Footer = () => (
             </S.SocialIconLink>
 
             <S.SocialIconLink
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/andremorpanini/"
               target="_blank"
               aria-label="Linkedin"
             >
